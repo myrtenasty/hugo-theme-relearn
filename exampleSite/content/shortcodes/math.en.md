@@ -43,7 +43,7 @@ $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \
 ````go
 {{ partial "shortcodes/math.html" (dict
   "page"    .
-  "content" "$$left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$"
+  "content" "$$left( \sum_{k=1}$$"
   "align"   "center"
 )}}
 
@@ -54,10 +54,10 @@ $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \
 
 ### Parameter
 
-| Name                  | Default          | Notes       |
-|-----------------------|------------------|-------------|
-| **align**             | `center`         | Allowed values are `left`, `center` or `right`. |
-| _**&lt;content&gt;**_ | _&lt;empty&gt;_  | Your formuale. |
+| Name                  | Default         | Notes                                           |
+| --------------------- | --------------- | ----------------------------------------------- |
+| **align**             | `center`        | Allowed values are `left`, `center` or `right`. |
+| _**&lt;content&gt;**_ | _&lt;empty&gt;_ | Your formuale.                                  |
 
 ## Configuration
 
