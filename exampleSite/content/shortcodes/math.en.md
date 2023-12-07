@@ -43,7 +43,7 @@ $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \
 ````go
 {{ partial "shortcodes/math.html" (dict
   "page"    .
-  "content" "$$left( \sum_{k=1}$$"
+  "content" "$$ k $$"
   "align"   "center"
 )}}
 
